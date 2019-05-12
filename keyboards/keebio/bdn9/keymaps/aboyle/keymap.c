@@ -22,10 +22,7 @@ enum custom_keycodes {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*
-        | Knob 1: Vol Dn/Up |      | Knob 2: Page Dn/Up |
-        | Press: Mute       | Home | Press: Play/Pause  |
-        | Hold: Layer 2     | Up   | RGB Mode           |
-        | Left              | Down | Right              |
+        slack emojis, entered on their own line
      */
     [0] = LAYOUT(
         KC_MUTE, MMMMYES, KC_MPLY,
@@ -33,9 +30,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         SAD_TROMBONE, THUMBSUP, HEAVY_PLUS_SIGN
     ),
     /*
-        | RESET          | N/A  | Media Stop |
-        | Held: Layer 2  | Home | RGB Mode   |
-        | Media Previous | End  | Media Next |
+        same emoji's as layer 0 but as reactions
      */
     [1] = LAYOUT(
         RESET  , R_MMMMYES, KC_STOP,
